@@ -1,57 +1,56 @@
-/* TAG SECTION */
-* {
-  box-sizing: border-box;
+:root {
+  --Dark-blue: hsl(218, 44%, 22%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --White: hsl(0, 0%, 100%);
+
+  /****************** TAG SELECTOR ********************/
+}
+
+body {
+  align-items: center;
+  background-color: var(--Light-gray);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+
+  flex-direction: column;
   font-family: "Outfit", sans-serif;
 }
-body {
-  width: 1440px;
-  background-color: hsl(212, 45%, 89%);
-  padding: 10%;
-  text-align: center;
-  font-size: 15px;
-}
 img {
-  border-radius: 5%;
-  width: 90%;
-  position: absolute;
-  left: 5%;
-  top: 3.5%;
+  border-radius: 1rem;
+  display: block;
+  width: 100%;
 }
-h1 {
-  padding: 98% 10% 0;
+h2 {
+  color: var(--Dark-blue);
   font-weight: 700;
+  padding: 0% 10% 0;
 }
 
-h3 {
-  color: hsl(220, 15%, 55%);
+p {
+  color: var(--Grayish-blue);
+  font-size: 15px;
   font-weight: 400;
-  padding: 0 14%;
+  padding: 0 14% 5%;
 }
 
-/* CLASS SECTION */
+/****************** CLASS SELECTOR ********************/
 
 /* TEXT ONE */
-.all-text {
-  background-color: hsl(0, 0%, 100%);
-  width: 430px;
-  height: 660px;
-
-  border-radius: 20px;
-  position: relative;
+.white-card {
+  background-color: var(--White);
+  border-radius: 1rem;
+  max-width: 22rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 /* TEX TWO */
 .attribution {
   font-size: 11px;
-  text-align: center;
+  margin-top: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-/* CONTAINER */
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
