@@ -40,7 +40,7 @@ p {
 /* TEXT ONE */
 .white-card {
   background-color: var(--White);
-  border-radius: 1rem;
+  border-radius: 25px;
   max-width: 22rem;
   padding: 1rem;
   text-align: center;
